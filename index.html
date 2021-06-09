@@ -6,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="bg-blue-400">
+  <body>
+    <div class="w-wrapper bg-gray-300 mx-auto my-10 text-white text-2xl grid gap-10 grid-rows-layout-row grid-cols-layout-col">
+      <div class="bg-red-500 col-span-4">Header</div>
+      <div class="bg-red-500">Small box 1</div>
+      <div class="bg-red-500">Small box 2</div>
+      <div class="bg-red-500">Small box 3</div>
+      <div class="bg-red-500 col-start-1 col-end-4">Main content</div>
+      <div class="bg-red-500 row-start-2 row-end-4 col-start-4 ">Sidebar</div>
+      <div class="bg-red-500 col-span-4">Footer</div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
